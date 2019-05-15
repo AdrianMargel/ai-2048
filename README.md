@@ -9,7 +9,7 @@ The AI works by using a set of greedy testers that look one move into the future
 
 The approach described above allows for heuristic scoring technics to be combined with MCTS. In my testing I found this to be quite effective. It also has the advantage that the intelligence can be scaled simply by increasing the number of testers and or the number of moves that are tested up to. This of course will also decrease the speed it runs at though.
 
-I also in testing found that the heuristic scoring of the testers must be the same as the main AI. When I attempted to have them using different heuristics for their scoring it would lead to occational self-sabatage. The main AI would sometimes make moves to intentionally destroy the testers scores in order to force the testers into making moves that would benifit the main AI's scoring even though this results in lower scores for both of them in the long term.
+I also in testing found that the heuristic scoring of the testers must be the same as the main AI. When I attempted to have them using different heuristics for their scoring it would lead to occational self-sabotage. The main AI would sometimes make moves to intentionally destroy the testers scores in order to force the testers into making moves that would benefit the main AI's scoring even though this results in lower scores for both of them in the long term.
 
 The code was written summer 2018
 
